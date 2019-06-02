@@ -1,0 +1,12 @@
+cabal-version:       >=1.10
+name:                new
+version:             0.1.0.0
+license:             BSD3
+author:              Silvan Mosberger
+maintainer:          infinisil@icloud.com
+build-type:          Simple
+
+executable new
+  main-is:             Main.hs
+  build-depends:       base >=4.12 && <4.13
+  default-language:    Haskell2010
